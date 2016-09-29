@@ -2,9 +2,21 @@
 #include<stdlib.h>
 #define NUMROWS 100
 
-/*Problem number 67 on project euler
- * Start at top of array and add the larger number above it and set that to the new number
- * make way to the bottom and then take the biggest number in the last row of the pyramid
+/*Problem number 67 on project euler:
+By starting at the top of the triangle below and moving to adjacent numbers on the row below, the maximum total from top to bottom is 23.
+
+   3
+  7 4
+ 2 4 6
+8 5 9 3
+
+That is, 3 + 7 + 4 + 9 = 23.
+
+Find the maximum total from top to bottom in triangle.txt containing a triangle with one-hundred rows
+
+How i solved:
+ -Start at top of array and add the larger number above it and set that to the new number
+ -make way to the bottom and then take the biggest number in the last row of the pyramid
 */
 
 int *makeArray() {
