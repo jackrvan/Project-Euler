@@ -3,7 +3,11 @@
 #include<cmath>
 
 /*
-A number that never forms a palindrome through the reverse and add process is called a Lychrel number. Due to the theoretical nature of these numbers, and for the purpose of this problem, we shall assume that a number is Lychrel until proven otherwise. In addition you are given that for every number below ten-thousand, it will either (i) become a palindrome in less than fifty iterations, or, (ii) no one, with all the computing power that exists, has managed so far to map it to a palindrome. In fact, 10677 is the first number to be shown to require over fifty iterations before producing a palindrome: 4668731596684224866951378664 (53 iterations, 28-digits).
+A number that never forms a palindrome through the reverse and add process is called a Lychrel number.
+Due to the theoretical nature of these numbers, and for the purpose of this problem, we shall assume that a number is Lychrel until proven otherwise.
+In addition you are given that for every number below ten-thousand, it will either 
+(i) become a palindrome in less than fifty iterations, or, 
+(ii) no one, with all the computing power that exists, has managed so far to map it to a palindrome. 
 
 How many Lychrel numbers are there below ten-thousand?
  */
